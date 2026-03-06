@@ -1,0 +1,41 @@
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
+
+# Local virtual environments and caches
+venv/
+.venv/
+pip-cache/
+
+# Runtime data (do not version real application data)
+all excels/
+all_excels/
+all resumes/
+all_resumes/
+logs/
+
+# Old or experimental code
+old/
+
+# Local-only secrets or API key helper files (not used in the open-source version)
+secrets.py
+apikeys.py
+
+# Environment variables (NEVER commit this!)
+.env
+.env.local
+
+# Build / dist artifacts
+dist/
+build/
+*.egg-info/
+
+# Coverage, reports, caches
+coverage/
+.cache/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db

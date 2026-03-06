@@ -1,0 +1,124 @@
+{
+  "categories": {
+    "work_authorization": {
+      "exact_matches": [
+        "eligible to work",
+        "authorized to work",
+        "legally authorized to work",
+        "work authorization",
+        "work permit",
+        "right to work",
+        "legal right to work",
+        "are you legally authorized to work",
+        "are you authorized to work in the united states",
+        "are you legally authorized to work in the united states"
+      ],
+      "fuzzy_keywords": [
+        "citizenship",
+        "visa",
+        "permit",
+        "eligible",
+        "authorized",
+        "authorization",
+        "legally authorized",
+        "right to work",
+        "work in the united states",
+        "united states",
+        "cetățenie",
+        "permis"
+      ],
+      "use_personal_data": false,
+      "response_template": "Yes, fully authorized to work in Romania/EU."
+    },
+    "start_date": {
+      "exact_matches": ["when can you start", "earliest start date", "available to begin", "notice period"],
+      "fuzzy_keywords": ["availability", "begin", "start date", "notice", "disponibil", "începi"],
+      "use_personal_data": false,
+      "response_template": "Available to start within 2 weeks."
+    },
+    "salary_expectations": {
+      "exact_matches": ["salary expectations", "desired salary", "salary range", "expected compensation"],
+      "fuzzy_keywords": ["salary", "salariu", "salariul", "salariale", "salarial", "cât vrei", "buget", "compensation", "plată", "așteptări"],
+      "use_personal_data": true,
+      "personal_key": "desired_salary",
+      "response_template": "{desired_salary}"
+    },
+    "location": {
+      "exact_matches": [
+        "current location",
+        "current city",
+        "where do you live",
+        "where are you located",
+        "work location",
+        "permanent work location",
+        "city, state",
+        "city state"
+      ],
+      "fuzzy_keywords": [
+        "location",
+        "city",
+        "town",
+        "work location",
+        "permanent",
+        "based in",
+        "oraș",
+        "oras",
+        "locuiești",
+        "locuiesti",
+        "adresa",
+        "domiciliu",
+        "unde locuiești",
+        "unde locuiesti"
+      ],
+      "use_personal_data": true,
+      "personal_key": "city",
+      "response_template": "{city}"
+    },
+    "phone": {
+      "exact_matches": ["phone number", "contact phone", "mobile number"],
+      "fuzzy_keywords": ["phone", "telefon", "mobil", "număr de telefon"],
+      "use_personal_data": true,
+      "personal_key": "phone",
+      "response_template": "{phone}"
+    },
+    "first_name": {
+      "exact_matches": ["first name", "prenume"],
+      "fuzzy_keywords": ["prenume", "first name", "numele de botez"],
+      "use_personal_data": true,
+      "personal_key": "first_name",
+      "response_template": "{first_name}"
+    },
+    "last_name": {
+      "exact_matches": ["last name", "nume de familie", "surname"],
+      "fuzzy_keywords": ["nume", "last name", "familie"],
+      "use_personal_data": true,
+      "personal_key": "last_name",
+      "response_template": "{last_name}"
+    },
+    "full_name": {
+      "exact_matches": ["full name", "nume complet", "complete name"],
+      "fuzzy_keywords": ["full name", "nume complet", "numele complet"],
+      "use_personal_data": true,
+      "personal_key": "full_name",
+      "response_template": "{full_name}"
+    },
+    "experience_years": {
+      "exact_matches": ["years of experience", "how many years", "work experience"],
+      "fuzzy_keywords": ["experience", "years", "ani experiență", "experiență"],
+      "use_personal_data": true,
+      "personal_key": "years_of_experience",
+      "response_template": "{years_of_experience} years in relevant field."
+    },
+    "education_degree": {
+      "exact_matches": ["highest degree", "education level", "degree"],
+      "fuzzy_keywords": ["degree", "education", "studii", "diplomă", "licență"],
+      "use_personal_data": true,
+      "personal_key": "education",
+      "response_template": "{education}"
+    },
+    "unknown": {
+      "use_personal_data": false,
+      "response_template": "Please discuss in interview."
+    }
+  }
+}
