@@ -227,21 +227,6 @@ For a complete usage guide, see `docs/usage.md`.
 
 ---
 
-## Screenshots
-
-You can add screenshots of:
-
-- the bot running in a terminal,
-- the applied jobs UI in the browser,
-- sample CSV outputs (with anonymised data).
-
-For now, use placeholders:
-
-- `docs/screenshots/bot-running.png`
-- `docs/screenshots/ui-applied-jobs.png`
-
----
-
 ## Documentation
 
 Additional documentation is available in the `docs/` folder:
