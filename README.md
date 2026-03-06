@@ -6,10 +6,7 @@ Automation bot that applies to **LinkedIn Easy Apply** jobs using your configure
 
 ## Badges
 
-[![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE)  
-![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/auto-job-applier-linkedin?style=social)  
-![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/auto-job-applier-linkedin)  
-![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/auto-job-applier-linkedin)
+[![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/GlangherStudent/auto-job-applier-linkedin-bot?style=social)](https://github.com/GlangherStudent/auto-job-applier-linkedin-bot) [![Issues](https://img.shields.io/github/issues/GlangherStudent/auto-job-applier-linkedin-bot)](https://github.com/GlangherStudent/auto-job-applier-linkedin-bot/issues) [![Last Commit](https://img.shields.io/github/last-commit/GlangherStudent/auto-job-applier-linkedin-bot)](https://github.com/GlangherStudent/auto-job-applier-linkedin-bot/commits/main)
 
 ---
 
