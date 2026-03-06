@@ -21,14 +21,14 @@ This document explains how to propose changes and collaborate effectively.
 2. Clone your fork locally:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/auto-job-applier-linkedin.git
-cd auto-job-applier-linkedin
+git clone https://github.com/YOUR_USERNAME/auto-job-applier-linkedin-bot.git
+cd auto-job-applier-linkedin-bot
 ```
 
 3. Add the original repository as an `upstream` remote (optional but recommended):
 
 ```bash
-git remote add upstream https://github.com/ORIGINAL_OWNER/auto-job-applier-linkedin.git
+git remote add upstream https://github.com/GlangherStudent/auto-job-applier-linkedin-bot.git
 ```
 
 ---

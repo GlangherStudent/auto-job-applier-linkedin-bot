@@ -39,3 +39,6 @@ coverage/
 # OS / editor junk
 .DS_Store
 Thumbs.db
+
+# Editor-specific (Cursor)
+.cursor/

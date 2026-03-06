@@ -13,8 +13,8 @@ This guide aligns with the main [README](../README.md). For publishing the proje
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/auto-job-applier-linkedin.git
-cd auto-job-applier-linkedin
+git clone https://github.com/GlangherStudent/auto-job-applier-linkedin-bot.git
+cd auto-job-applier-linkedin-bot
 ```
 
 If you downloaded a ZIP archive instead, extract it and open the folder in your terminal.

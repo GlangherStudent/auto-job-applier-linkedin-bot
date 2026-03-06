@@ -93,7 +93,7 @@ For a deeper breakdown, see:
 
 High-level structure:
 
-- `runAiBot.py` â€“ CLI entrypoint for the LinkedIn bot.
+- `runAiBot.py` — CLI entrypoint for the LinkedIn bot.
 - `app.py` â€“ Flask app for the applied jobs UI.
 - `config/` â€“ all configuration modules (personal data, questions, search, settings, constants).
 - `modules/` â€“ core logic modules (automation, matching, anti-detection, CSV, LLM, etc.).
@@ -111,8 +111,8 @@ High-level structure:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/auto-job-applier-linkedin.git
-cd auto-job-applier-linkedin
+git clone https://github.com/GlangherStudent/auto-job-applier-linkedin-bot.git
+cd auto-job-applier-linkedin-bot
 ```
 
 2. **Create and activate a virtual environment**
@@ -244,8 +244,8 @@ Additional documentation is available in the `docs/` folder:
 Basic development steps:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/auto-job-applier-linkedin.git
-cd auto-job-applier-linkedin
+git clone https://github.com/GlangherStudent/auto-job-applier-linkedin-bot.git
+cd auto-job-applier-linkedin-bot
 python -m venv venv
 venv\Scripts\activate        # or source venv/bin/activate
 pip install -r requirements.txt
