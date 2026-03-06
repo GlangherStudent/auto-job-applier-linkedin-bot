@@ -1,6 +1,6 @@
 ## Auto Job Applier for LinkedIn
 
-Automation bot that applies to **LinkedIn Easy Apply** jobs using your configured search criteria, personal data, and smart form answers — plus a lightweight web UI to review and manage your application history.
+Automation bot that applies to **LinkedIn Easy Apply** jobs using your configured search criteria, personal data, and smart form answers, plus a lightweight web UI to review and manage your application history.
 
 ---
 
